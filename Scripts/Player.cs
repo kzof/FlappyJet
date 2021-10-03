@@ -26,9 +26,4 @@ public class Player : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D(Collider2D other){
-        Scene scene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene("GameOver");
-
-    }
 }

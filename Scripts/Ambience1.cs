@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Coin : MonoBehaviour
+public class Ambience1 : MonoBehaviour
 {
     private AudioSource sound;
     void Start(){
@@ -10,7 +10,7 @@ public class Coin : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D other){
         sound.Play();
-        Destroy(gameObject, 0.1f);
+        Destroy(gameObject, 7);
 
     }
 }
